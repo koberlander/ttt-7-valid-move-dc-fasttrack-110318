@@ -9,7 +9,9 @@ end
 
 def position_taken()
 if board[index] == " "
+    
     return true
+    
   else
     return false 
   end
