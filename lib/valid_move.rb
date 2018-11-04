@@ -1,6 +1,7 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if board[index] <= 9
+  if board[index].between <= 9
+    3.between?(1, 5) 
     return true
     else  
     return false 
